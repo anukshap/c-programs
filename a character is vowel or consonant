@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+char alphabet;
+printf("enter an alphabet\n");
+scanf("%c",&alphabet);
+if(alphabet=='a'||alphabet=='A')
+printf("vovel\n");
+else if(alphabet=='e'||alphabet=='E')
+printf("vowel\n");
+else if(alphabet=='i'||alphabet=='I')
+printf("vowel\n");
+else if(alphabet=='o'||alphabet=='O')
+printf("vowel\n");
+else if(alphabet=='u'||alphabet=='U')
+printf("vowel\n");
+else
+printf("cosonanats");
+return 0;
+}
