@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+char d;
+printf("Enter a character \n: ");
+scanf("%c", &d);
+
+printf("ASCII value of %c = %d", d,d);
+return 0;
+
+}
