@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int n,m,i,sum=0;
+printf("enter a values of m and n\n");
+scanf("%d%d",&m,&n);
+for(i=m;i<=n;i++)
+{
+
+sum=sum+i;
+
+
+}
+printf("sum of n natural numbers=%d",sum);
+return 0;
+}
