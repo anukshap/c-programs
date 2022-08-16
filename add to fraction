@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+float n1,n2,d1,d2,add;
+printf("enter the valuue of n1 n2 d1 d2 \n");
+scanf("%f%f%f%f",&n1,&d1,&n2,&d2);
+add=n1/d1+n2/d2;
+printf("addition of 2 fractions is %f",add);
+return 0;
+}
+
+
