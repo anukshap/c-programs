@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int a1,a2,a3;
+printf("enter a1,a2,a3\n");
+scanf("%d%d%d",&a1,&a2,&a3);
+if(a1>a2 && a1>a3)
+  printf("a1=%d is the greatest\n",a1);
+else if(a2>a1 && a2>a3)
+printf("a2=%d is the greatest\n",a2);
+else
+printf("a3=%d is the greatest\n",a3);
+return 0;
+
+}
