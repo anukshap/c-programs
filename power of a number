@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    float b,e;
+    float result =1;
+    printf("Enter a base number\n ");
+    scanf("%f", &b);
+    printf("Enter an exponent\n");
+    scanf("%f", &e);
+
+    while (e!= 0) {
+        result *= b;
+        --e;
+    }
+    printf("Answer = %f", result);
+    return 0;
+}
