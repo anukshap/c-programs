@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+float a,b,mul;
+printf("enter 2 numbers\n");
+scanf("%f%f",&a,&b);
+mul=a*b;
+printf("the multplication %f\n",mul);
+return 0;
+}
