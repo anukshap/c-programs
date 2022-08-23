@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    float m,feet;
+printf("enter a user input feet\n");
+scanf("%f",&feet);
+m=feet/3.2808;
+printf("the result of feet to meter is %f \n",m);
+}
+
