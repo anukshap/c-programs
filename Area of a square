@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+float area,l;
+printf("enter the length  of a given square\n");
+scanf("%f",&l);
+area=l*l;
+printf("the result is %f \n",area);
+
+
+    
+    
