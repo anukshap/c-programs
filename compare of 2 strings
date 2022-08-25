@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char str1[40];
+    char str2[40];
+    int value;
+
+
+printf (" enter th str1 and str2\n ");
+scanf ("%s%s", &str1,&str2);
+value=strcmp(str1,str2);
+if(value==0)
+printf(" the string is same\n ");
+else
+printf("the string is not same\n");
+return 0;
+}
