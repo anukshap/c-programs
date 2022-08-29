@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    char m;
+ printf("enter a character");
+    scanf("%d%c",&n,&m);
+    if(m>='a' && n<='z'  || m>='A' && m<='Z')
+    printf("it is alaphabet");
+    else if (n>=0 &&n<=9)
+    printf("it is digit");
+    else
+        printf("it is special character");
+        return 0;
+}
