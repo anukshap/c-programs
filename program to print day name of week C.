@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+printf("enter a number (1to7)\n");
+scanf("%d",&n);
+if(n==1)
+printf("1 is monday");
+else if(n==2)
+printf("2 is tuesday");
+else if(n==3)
+printf("3 is wenesday");
+else if(n==4)
+printf("4 is thrusday");
+else if(n==5)
+printf("5 is friday");
+else if(n==6)
+printf("6 is saturday");
+else if(n==7)
+printf("7 is sunday");
+else
+printf("invalid");
+return 0;
+}
+
+
+
+
+
